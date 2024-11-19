@@ -1,4 +1,4 @@
-<library path="test_hardware">
+<library path="test_interface">
   <class name="test_hardware/TestActuator" type="test_hardware/TestActuator" base_class_type="hardware_interface::ActuatorInterface">
     <description>
       Test
