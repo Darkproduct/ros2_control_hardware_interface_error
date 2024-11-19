@@ -12,6 +12,7 @@ using hardware_interface::return_type;
 using hardware_interface::StateInterface;
 
 class TestActuator : public ActuatorInterface {
+public:
   RCLCPP_SHARED_PTR_DEFINITIONS(TestActuator)
 
   // Hardware Interface Callbacks
