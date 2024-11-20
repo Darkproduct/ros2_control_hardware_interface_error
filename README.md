@@ -28,3 +28,8 @@ Error:
 [ros2_control_node-1] [WARN] [1732034052.951998904] [controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
 [ros2_control_node-1] [WARN] [1732034053.952009371] [controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
 ```
+
+Solution from [Martin Peris at robotics.stackexchange.com](https://robotics.stackexchange.com/a/113761/32945):
+https://github.com/Darkproduct/ros2_control_hardware_interface_error/blob/master/test_hardware.xml#L1-L7
+> Indeed `type="test_hardware/TestActuator"` should be `type=test_hardware::TestActuator`
+In 
